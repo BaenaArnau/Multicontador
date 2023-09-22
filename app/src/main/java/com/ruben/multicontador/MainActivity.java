@@ -40,24 +40,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        texto1 = findViewById(R.id.text);
-        reset_all = findViewById(R.id.ResetAll);
+        texto1 = findViewById(R.id.TextoT);
+        reset_all = findViewById(R.id.BotonRT);
 
-        texto2 = findViewById(R.id.text2);
-        sum1 = findViewById(R.id.Boton1);
-        reset1 = findViewById(R.id.Reset1);
+        texto2 = findViewById(R.id.Texto1);
+        sum1 = findViewById(R.id.BotonM1);
+        reset1 = findViewById(R.id.BotonR1);
 
-        texto3 = findViewById(R.id.text3);
-        sum2 = findViewById(R.id.Boton2);
-        reset2 = findViewById(R.id.Reset2);
+        texto3 = findViewById(R.id.Texto2);
+        sum2 = findViewById(R.id.BotonM2);
+        reset2 = findViewById(R.id.BotonR2);
 
-        texto4 = findViewById(R.id.text4);
-        sum3 = findViewById(R.id.Boton3);
-        reset3 = findViewById(R.id.Reset3);
+        texto4 = findViewById(R.id.Texto3);
+        sum3 = findViewById(R.id.BotonM3);
+        reset3 = findViewById(R.id.BotonR3);
 
-        texto5 = findViewById(R.id.text5);
-        sum4 = findViewById(R.id.Boton4);
-        reset4 = findViewById(R.id.Reset4);
+        texto5 = findViewById(R.id.Texto4);
+        sum4 = findViewById(R.id.BotonM4);
+        reset4 = findViewById(R.id.BotonR4);
 
 
         sum1.setOnClickListener(new View.OnClickListener() {
